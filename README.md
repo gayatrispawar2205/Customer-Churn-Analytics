@@ -72,6 +72,16 @@ Reviewing pricing for high monthly charge customers
 Script: 06_business_insights.py
 Output: outputs/churn_risk_segments.csv
 
+## SQL Analysis
+Along with Python-based modeling, SQL was used to analyze churn patterns such as:
+- Overall churn rate
+- Churn by contract type and payment method
+- Tenure-based churn segmentation
+- High-value churned customers
+
+These queries simulate real-world analysis on customer tables stored in relational databases.
+
+
 Tools Used
 Python
 pandas
