@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Customer Churn Analytics | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      background: #f7f9fc;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: #1f2937;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin-bottom: 10px;
+    }
+    header p {
+      max-width: 700px;
+      margin: auto;
+      color: #d1d5db;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+      color: #111827;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .tech span {
+      display: inline-block;
+      background: #e0e7ff;
+      color: #3730a3;
+      padding: 6px 12px;
+      border-radius: 20px;
+      margin: 5px 5px 0 0;
+      font-size: 14px;
+    }
+    footer {
+      background: #111827;
+      color: #9ca3af;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Customer Churn Analytics & Prediction</h1>
+    <p>
+      End-to-end customer churn analysis using SQL for business insights and Python
+      for machine learning, built as part of a data analytics portfolio.
+    </p>
+  </header>
+
+  <section>
+    <h2>Project Overview</h2>
+    <p>
+      This project focuses on understanding why customers leave a service (churn)
+      and identifying customers who are at high risk of churning. The goal is to
+      combine <strong>SQL-based analysis</strong> with <strong>Python-based machine learning</strong>
+      to deliver actionable business insights.
+    </p>
+  </section>
+
+  <section>
+    <h2>Business Questions Answered</h2>
+    <div class="grid">
+      <div class="card">Why do customers churn?</div>
+      <div class="card">Which customer segments have the highest churn?</div>
+      <div class="card">How do contract type and payment method affect churn?</div>
+      <div class="card">Which customers are at highest risk of churning?</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Workflow</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>1. Data Validation</h3>
+        <p>Cleaned and validated customer data to ensure accuracy and consistency.</p>
+      </div>
+      <div class="card">
+        <h3>2. SQL Analysis</h3>
+        <p>Calculated churn KPIs, segmentation, and risk patterns using SQL queries.</p>
+      </div>
+      <div class="card">
+        <h3>3. Feature Engineering</h3>
+        <p>Prepared model-ready features using encoding and data transformations.</p>
+      </div>
+      <div class="card">
+        <h3>4. ML Modeling</h3>
+        <p>Built a Logistic Regression model to predict churn probability.</p>
+      </div>
+      <div class="card">
+        <h3>5. Evaluation</h3>
+        <p>Evaluated model using ROC-AUC, precision, recall, and accuracy.</p>
+      </div>
+      <div class="card">
+        <h3>6. Business Insights</h3>
+        <p>Converted predictions into churn risk segments and recommendations.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Technologies Used</h2>
+    <div class="tech">
+      <span>Python</span>
+      <span>SQL</span>
+      <span>pandas</span>
+      <span>scikit-learn</span>
+      <span>matplotlib</span>
+      <span>Git & GitHub</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Key Insights</h2>
+    <ul>
+      <li>Customers with short tenure have significantly higher churn rates</li>
+      <li>Month-to-month contracts are more prone to churn</li>
+      <li>High monthly charges increase churn risk</li>
+      <li>SQL helps quickly identify churn-heavy segments before modeling</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Visual Insights</h2>
+    <p>Below are sample visuals generated during analysis to support churn insights.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>Churn Distribution</h3>
+        <img src="assets/churn_distribution.png" alt="Churn Distribution" style="width:100%; border-radius:6px;">
+      </div>
+      <div class="card">
+        <h3>Tenure vs Churn</h3>
+        <img src="assets/tenure_vs_churn.png" alt="Tenure vs Churn" style="width:100%; border-radius:6px;">
+      </div>
+      <div class="card">
+        <h3>ROC Curve</h3>
+        <img src="assets/roc_curve.png" alt="ROC Curve" style="width:100%; border-radius:6px;">
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Project Links</h2>
+    <p>
+      GitHub Repository:
+      <a href="https://github.com/gayatrispawar2205/Customer-Churn-Analytics" target="_blank">
+        View on GitHub
+      </a>
+    </p>
+  </section>
+
+  <footer>
+    <p>Built by Gayatri Pawar | Data Analytics & Machine Learning Portfolio</p>
+  </footer>
+
+</body>
+</html>
